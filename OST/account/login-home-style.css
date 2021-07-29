@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    font-family: monospace;
+    background-color: #040a0f;
+    box-shadow: 8px 4px 10px #040a0f;
+}
+
+.header .logo{
+    width: 30%;
+    color: #3191ff;
+    margin-left: 10vh;
+    line-height: 10vh;
+}
+.header .logo h1{
+    float: left;
+}
+.header .menu{
+    width: 70%;
+    float: left;
+}
+.header .menu ul{
+    display: block;
+    position: fixed;
+    font-size: 18px;
+    right: 0;
+}
+.header .menu ul li{
+    line-height: 10vh;
+    list-style: none;
+    margin-right: 10vh;
+    float: left;
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: #3191ff;
+}
+.header .menu ul li a:hover{
+    color: #09ffff;
+}
+
+
+
+.content-bg{
+    background-image: url(../images/why.jpg);
+    margin-top: 40vh;
+    width: 100%;
+    height: 60vh;
+    background-color: khaki;
+    box-shadow: 0 0 10px gray; 
+}
+.content-bg hr{
+    height: 2px;
+    box-shadow: 2px 2px 2px gray;
+    background-color: #040a0f;
+    border: none;
+}
+
+.learn{
+    
+    background-color: white;
+    position: relative;
+    top: -20vh;
+    margin: 5vh 10%;
+    width: 25%;
+    padding: 5vh;
+    height: 50vh;
+    box-shadow: 2px 0 10px #040a0f;
+    float: left;
+}
+.learn h1{
+    text-shadow: 2px 2px 2px grey;
+}
+.learn .learn-para{
+    margin-top: 3vh;
+    width: 100%;
+    height: 30vh;
+    text-align: justify;
+    overflow: hidden;
+}
+.learn .learn-para p{
+    margin: 2vh;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: justify;
+}
+.learn a{
+    
+    text-decoration: none;
+}
+.learn a input{
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #4c69e1;
+    width: 20vh;
+    height: 5vh;
+    margin-top: 3vh;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bolder;  ;
+}
+.learn a input:hover{
+    color: #333858;
+    background-color:#09ffff ;
+    height: 6vh;
+    margin-top: 2vh;
+}
+
+.implement{
+    
+    background-color: white;
+    position: relative;
+    top: -20vh;
+    margin: 5vh 10vh;
+    width: 25%;
+    height: 50vh;
+    padding: 5vh;
+    box-shadow: 2px 0 10px #040a0f;
+    float: left;
+    
+}
+.implement h1{
+    text-shadow: 2px 2px 2px grey;
+}
+.implement .implement-para{
+    margin-top: 3vh;
+    width: 100%;
+    height: 30vh;
+    text-align: justify;
+    overflow: hidden;
+}
+.implement .implement-para p{
+    margin: 2vh;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: justify;
+}
+.implement a{
+    
+    text-decoration: none;
+}
+.implement a input{
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #4c69e1;
+    width: 100%;
+    height: 5vh;
+    margin-top: 3vh;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bolder;  ;
+}
+.implement a input:hover{
+    color: #333858;
+    background-color:#09ffff ;
+    width: 100%;
+    height: 6vh;
+    margin-top: 2vh;
+}
+
+
+
+
+
+
+.footer{
+    margin-top: 20vh;
+    width: 100%;
+    height: 20vh;
+    padding-top: 10vh;
+    background-color: #040a0f; 
+    box-shadow: 0 2px 40px #040a0f;
+}
+.footer .bg-img{
+    background-image: url(../images/cross_bottom.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh;
+}

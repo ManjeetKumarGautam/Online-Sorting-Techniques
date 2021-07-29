@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    font-family: monospace;
+    background-color: #040a0f;
+    box-shadow: 8px 4px 10px #040a0f;
+}
+
+.header .logo{
+    width: 30%;
+    color: #3191ff;
+    margin-left: 10vh;
+    line-height: 10vh;
+}
+.header .logo h1{
+    float: left;
+}
+.header .menu{
+    width: 70%;
+    float: left;
+}
+.header .menu ul{
+    display: block;
+    position: fixed;
+    font-size: 18px;
+    right: 0;
+}
+.header .menu ul li{
+    line-height: 10vh;
+    list-style: none;
+    margin-right: 10vh;
+    float: left;
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: #3191ff;
+}
+.header .menu ul li a:hover{
+    color: #09ffff;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    padding-top: 10vh;
+    background-color: #040a0f; 
+    box-shadow: 0 2px 40px #040a0f;
+    z-index: 3;
+}
+.footer .bg-img{
+    background-image: url(/images/cross_bottom.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh;
+}
+
+
+
+
+
+.register-box{
+    margin: 25vh auto;
+    width: 30%;
+    height: 70vh;
+    justify-content: center;
+    justify-items: center;
+    border: 1vh solid #78b7eb;
+    border-radius: 2vh;
+    background-color: rgb(216, 214, 214);
+    
+    font-family: monospace;
+}
+.register-box h1{
+    color: #040a0f;
+    text-shadow: 2px 2px 2px rgb(44, 44, 44);
+    margin: 5vh;
+    font-family: monospace;
+    font-size: 6vh;
+    letter-spacing: 2px;
+}
+.register-box form{
+    justify-content: center;
+}
+.register-box form .text{
+    width: 90%;
+    height: 35vh;
+}
+.register-box form .text input{
+    width: 85%;
+    height: 5vh;
+    margin: 2vh auto;
+    padding-left: 2vh;
+    border: none;
+    border-bottom: 2px solid ;
+    outline: none;
+    font-size: 14px;
+    font-family: monospace;
+}
+.register-box form .btn{
+    position: relative;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 30%;
+    height: 6vh;
+    margin: 5vh auto;
+    border: none;
+    box-shadow: 2px 2px 2px #040a0f;
+    background-color: #3191ff;
+}
+.register-box form .btn:hover{
+    background-color: #09ffff;
+}
